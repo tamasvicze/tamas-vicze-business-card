@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+}
+
+img {
+	width: 120px;
+	height: auto;
+}
+
+.profile-card {
+	background-color: yellow;
+}
+.head {
+	background-color: lightcoral;
+}
+.content {
+	background-color: lightgreen;
+}
+
+.flag {
+	background-color: mediumpurple;
+}
+.profile-image {
+	background-color: mediumpurple;
+}
+.name-headline {
+	background-color: mediumpurple;
+}
+.about {
+	background-color: mediumpurple;
+}
+.media {
+	background-color: mediumpurple;
+}
+.job-edu {
+	background-color: mediumpurple;
+}
+.social {
+	background-color: mediumpurple;
+}
+
+
