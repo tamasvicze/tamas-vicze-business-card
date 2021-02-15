@@ -5,41 +5,83 @@
 	font-size: 100%;
 }
 
-img {
-	width: 120px;
-	height: auto;
-}
-
 .profile-card {
-	background-color: yellow;
-}
-.head {
-	background-color: lightcoral;
-}
-.content {
-	background-color: lightgreen;
+	width: 480px;
+	max-width: calc(100vw - 10px);
+	background-color: hsla(0, 0%, 100%, .5);
+	border-radius: 4px;
+	box-shadow: hsla(0, 0%, 0%, .8) 5px 5px 80px
 }
 
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: url('assets/background.jpeg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+.head, .social, table {
+	text-align: center;
+}
+
+.head, .content, table {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.profile-pic {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	padding: 1px;
+	background-color: #666;
+	filter: grayscale(50%);
+	margin-top: -60px;
+}
 .flag {
-	background-color: mediumpurple;
+	width: 20px;
+	height: 20px;
+	border-radius: 4px;
+	filter: grayscale(50%);
 }
-.profile-image {
-	background-color: mediumpurple;
+
+ul {
+	list-style-type: none;
 }
-.name-headline {
-	background-color: mediumpurple;
+
+li {
+	display: inline;
 }
-.about {
-	background-color: mediumpurple;
+
+.head, .about {
+	margin-bottom: 10%;
 }
-.media {
-	background-color: mediumpurple;
+
+.content {
+	padding: 5% 10%;
+	border-top: 1px solid hsla(0, 0%, 30%, .8)
 }
-.job-edu {
-	background-color: mediumpurple;
+
+.profile-pic:hover {
+	transform: scale(1.1);
+	transition: all 0.5s ease-in-out;
+	filter: grayscale(20%);
 }
-.social {
-	background-color: mediumpurple;
+
+.flag:hover {
+	transform: scale(1.1);
+	transition: all 0.5s ease-in-out;
+	filter: grayscale(20%);
+}
+
+.fab {
+	color: #999;
+}
+
+.fab:hover {
+	color: #666;
 }
 
 
