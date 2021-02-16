@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-size: 100%;
+	font-family: Roboto, sans-serif;
 }
 
 .profile-card {
@@ -41,8 +44,8 @@ body {
 	margin-top: -60px;
 }
 .flag {
-	width: 20px;
-	height: 20px;
+	width: 15px;
+	height: 15px;
 	border-radius: 4px;
 	filter: grayscale(50%);
 }
@@ -71,17 +74,56 @@ li {
 }
 
 .flag:hover {
-	transform: scale(1.1);
-	transition: all 0.5s ease-in-out;
 	filter: grayscale(20%);
 }
 
+/*Social icons*/
 .fab {
 	color: #999;
+	padding: 8px;
 }
 
 .fab:hover {
-	color: #666;
+	color: black;
 }
+
+.work, .education {
+	font-size: 10px;
+	color: #555;
+}
+
+/*Work, Education links*/
+a:hover {
+	color: #333;
+}
+
+.social {
+	margin-top: 5%;
+}
+
+span {
+	color: #555;
+	font-size: 12px;
+}
+
+.name-headline {
+	line-height: 1.4;
+}
+
+h1 {
+	font-size: 25px;
+	letter-spacing: 1px;
+}
+
+h2 {
+	color: #222;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
 
 
