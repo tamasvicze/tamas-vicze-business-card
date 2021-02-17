@@ -34,15 +34,25 @@ body {
 	margin: 0 auto;
 }
 
-.profile-pic {
+.tamas-pic {
 	width: 120px;
 	height: 120px;
 	border-radius: 50%;
 	padding: 1px;
 	background-color: #666;
 	filter: grayscale(50%);
+	transition: all 0.5s ease-in-out;
+}
+
+.tamas-pic:hover {
+	transform: scale(1.1);
+	filter: grayscale(20%);
+}
+
+.profile-image {
 	margin-top: -60px;
 }
+
 .flag {
 	width: 15px;
 	height: 15px;
@@ -65,12 +75,6 @@ li {
 .content {
 	padding: 5% 10%;
 	border-top: 1px solid hsla(0, 0%, 30%, .8)
-}
-
-.profile-pic:hover {
-	transform: scale(1.1);
-	transition: all 0.5s ease-in-out;
-	filter: grayscale(20%);
 }
 
 .flag:hover {
