@@ -68,7 +68,11 @@ li {
 	display: inline;
 }
 
-.head, .about {
+.head {
+	margin-bottom: 5%;
+}
+
+.about {
 	margin-bottom: 10%;
 }
 
@@ -121,6 +125,7 @@ h1 {
 
 h2 {
 	color: #222;
+	margin-bottom: 2.5%;
 }
 
 a {
