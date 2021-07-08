@@ -73,7 +73,7 @@ li {
 }
 
 .about {
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 
 .content {
@@ -132,6 +132,13 @@ a {
 	text-decoration: none;
 	color: black;
 }
+
+.stack {
+	text-align: left;
+	margin-bottom: 5%;
+}
+
+
 
 
 
