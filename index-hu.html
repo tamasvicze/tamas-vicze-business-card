@@ -6,14 +6,15 @@
 	
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<script src="https://kit.fontawesome.com/de577e0c41.js" crossorigin="anonymous"></script>
-	
+	<script src="config.js"></script> <!-- Include the JavaScript file here -->
+
 	<title>Vicze Tamás</title>
-	</head>
+</head>
 <body>
 	<div class="profile-card">
 	<div class="head">
 		<div class="profile-image">
-			<img src="assets/tamas-vicze-profilepic.jpg" alt="Tamas Vicze" class="tamas-pic">
+			<img src="${profilePicSrc}" alt="Tamas Vicze" class="tamas-pic">
 		</div>
 		<div class="name-headline">
 			<h1>VICZE TAMÁS</h1>
@@ -22,9 +23,9 @@
 		</div>
 		</div>
 	<div class="content">
-		<p class="about">.Net fejlesztőként dolgozom a <a href="https://www.convene.no" target="_blank">Convene</a>-nél.</p>
+		<p class="about">.Net fejlesztőként dolgozom a <a href="${conveneLink}" target="_blank">Convene</a>-nél.</p>
 		<table class="stack">
-			<th>Tech Stack</th>
+			<th>Stack</th>
 			<tr>
 				<td>Haladó C#</td>
 			</tr>
@@ -32,7 +33,7 @@
 				<td>Web alkalmazások .NET core MVC-vel</td>
 			</tr>
 			<tr>
-				<td>Verziókezelés Git-tel és github-al</td>
+				<td>Git és Github</td>
 			</tr>
 			<tr>
 				<td>HTML, CSS, JavaScript</td>
@@ -50,19 +51,21 @@
 				<td class="education">TANULMÁNYOK</td>
 			</tr>
 			<tr>
-				<td><a href="https://www.convene.no/privat/om-oss/" target="_blank">Convene</a></td>
-				<td><a href="https://www.academicwork.no/bedrifter/academic-work-academy-programmer#b2b-contact-form" target="_blank">AW Academy</a></td>
+				<td><a href="${conveneLink}" target="_blank">Convene</a></td>
+				<td><a href="${awAcademyLink}" target="_blank">AW Academy</a></td>
 			</tr>
 		</table>
 		<section class="social">
 			<p>Kapcsolatfelvétel:</p>
 			<ul>
-				<li><a href="https://www.linkedin.com/in/tam%C3%A1s-vicze-102232194/" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a></li>
-				<li><a href="https://github.com/tamasvicze" target="_blank"><i class="fab fa-2x fa-github-square"></i></a></li>
+				<li><a href="${linkedInLink}" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a></li>
+				<li><a href="${gitHubLink}" target="_blank"><i class="fab fa-2x fa-github-square"></i></a></li>
+				<!-- Add the Facebook link if needed -->
 			</ul>
 		</section>
 		<a href="index.html"><img src="assets/gb.svg" alt="Great Britain flag" class="flag"></a>
 		<a href="index-hu.html"><img src="assets/hu.svg" alt="Hungarian flag" class="flag"></a>
+		<a href="index-no.html"><img src="assets/no.svg" alt="Norwegian flag" class="flag"></a>
 	</div>
 	</div>
 </body>

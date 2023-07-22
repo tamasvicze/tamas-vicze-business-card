@@ -6,14 +6,15 @@
 	
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<script src="https://kit.fontawesome.com/de577e0c41.js" crossorigin="anonymous"></script>
-	
+	<script src="config.js"></script>
+
 	<title>Tamas Vicze</title>
 	</head>
 <body>
 	<div class="profile-card">
 	<div class="head">
 		<div class="profile-image">
-			<img src="assets/tamas-vicze-profilepic.jpg" alt="Tamas Vicze" class="tamas-pic">
+			<img src="${profilePicSrc}" alt="Tamas Vicze" class="tamas-pic">
 		</div>
 		<div class="name-headline">
 			<h1>TAMAS VICZE</h1>
@@ -32,7 +33,7 @@
 				<td>Web applications with .NET core MVC</td>
 			</tr>
 			<tr>
-				<td>Version control with Git and github</td>
+				<td>Git and github</td>
 			</tr>
 			<tr>
 				<td>HTML, CSS, JavaScript</td>
@@ -41,7 +42,7 @@
 				<td>Visual Studio</td>
 			</tr>
 			<tr>
-				<td>User friendly design (UX)/td>
+				<td>User friendly design (UX)</td>
 			</tr>
 
 		</table>
@@ -51,18 +52,19 @@
 				<td class="education">EDUCATION</td>
 			</tr>
 			<tr>
-				<td><a href="https://www.convene.no/privat/om-oss/" target="_blank">Convene</a></td>
-				<td><a href="https://www.academicwork.no/bedrifter/academic-work-academy-programmer#b2b-contact-form" target="_blank">AW Academy</a></td>
+				<td><a href="${conveneLink}" target="_blank">Convene</a></td>
+				<td><a href="${awAcademyLink}" target="_blank">AW Academy</a></td>
 			</tr>
 		</table>
 		<section class="social">
 			<p>Contact me via:</p>
 			<ul>
-				<li><a href="https://www.linkedin.com/in/tam%C3%A1s-vicze-102232194/" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a></li>
-				<li><a href="https://github.com/tamasvicze" target="_blank"><i class="fab fa-2x fa-github-square"></i></a></li>
+				<li><a href="${linkedInLink}" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a></li>
+				<li><a href="${gitHubLink}" target="_blank"><i class="fab fa-2x fa-github-square"></i></a></li>
 			</ul></section>
 		<a href="index.html"><img src="assets/gb.svg" alt="Great Britain flag" class="flag"></a>
 		<a href="index-hu.html"><img src="assets/hu.svg" alt="Hungarian flag" class="flag"></a>
+		<a href="index-no.html"><img src="assets/no.svg" alt="Norwegian flag" class="flag"></a>
 		</div>
 	</div>
 	</body>
