@@ -1,4 +1,4 @@
-const profilePicSrc = "assets/tamas-vicze-profilepic.jpeg";
+const profilePicSrc = "assets/tamasvicze-profilepic.jpeg";
 const linkedInLink = "https://www.linkedin.com/in/tamasvicze/";
 const gitHubLink = "https://github.com/tamasvicze";
 const conveneLink = "https://www.convene.no";
